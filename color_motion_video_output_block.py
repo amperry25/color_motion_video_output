@@ -10,7 +10,7 @@ from nio.properties import StringProperty, BoolProperty, VersionProperty, \
     IntProperty
 
 
-class MotionVideoOutput(GeneratorBlock):
+class ColorMotionVideoOutput(GeneratorBlock):
     """
     Open video source and output raw frames (numpy arrays)
     """
